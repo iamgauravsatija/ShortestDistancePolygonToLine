@@ -1,3 +1,10 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Author:  @iamgauravsatija on Github                                       #
+# I would like to give credit to the following courses for helping me:      #
+#   Geeksforgeeks.com                                                       #
+#   Youtube.com                                                             #
+#   Stackoverflow.com                                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import math 
 
 class vertex:
@@ -41,8 +48,8 @@ def binarySearchDist(left_vertex, middle_vertex, right_vertex, line_given, polyg
     if left_vertex.getDistance(line_given) == right_vertex.getDistance(line_given) and left_vertex.getDistance(line_given) == middle_vertex.getDistance(line_given):
         return left_vertex
 
-    if right_vertex.getIndex() == middle_vertex.getIndex():
-        return right_vertex.getDistance(line_given)    
+    # if right_vertex.getIndex() == middle_vertex.getIndex():
+    #     return right_vertex.getDistance(line_given)    
 
     dist_left  = left_vertex.getDistance(line_given)
     dist_right = right_vertex.getDistance(line_given)
@@ -78,7 +85,7 @@ def calculateShortestDistance(number_of_vertices, polygon_dict, line_given):
     
 
 
-filename = "input.txt"  # Change the input file path here
+filename = "input2.txt"  # Change the input file path here
 file = open(filename, "r")
 lines = file.readlines()
 polygon_dict = {}
