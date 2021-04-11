@@ -17,7 +17,8 @@ Pick three vertices:
     mid_vertex - index n/2
     right_vertex - index n
 
-Find distance of left_vertex, mid_vertex and right_vertex from line and let it be called dist_left, dist_mid and dist_right respectively.
+Find distance of left_vertex, mid_vertex and right_vertex from line. 
+Let they be called dist_left, dist_mid and dist_right respectively.
 
 call binarySearch(left_vertex, mid_vertex, right_vertex)
 ```
@@ -92,6 +93,7 @@ Distance to the Polygon:  8
 ## Part 3: 2 Examples
 
 The folder also contains input.txt and input2.txt file which contains sample input data that can be used to test the python file.
+These examples satisfies the reuirements as no matter which ever part is picked (left-mid or right-mid) it will have 30 vertices including (mid and other one) in the "sunny-side"
 
 Moreover, you can see below their corresponding graphical reprsentation. Also you can go online using the link below the image to see a dynamic graphical reprsentation
 
@@ -104,3 +106,5 @@ https://www.desmos.com/calculator/va5dfpdf44
 input2.txt
 ![example-image2](input2-image.png)
 https://www.desmos.com/calculator/mhq4hsncnh
+
+Note: createPoints.py was used to create list of verticies.
