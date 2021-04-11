@@ -89,7 +89,7 @@ Distance to the Polygon:  8
 <br>
 
 
-## 2 Examples:
+## Part 3: 2 Examples
 
 The folder also contains input.txt and input2.txt file which contains sample input data that can be used to test the python file.
 
