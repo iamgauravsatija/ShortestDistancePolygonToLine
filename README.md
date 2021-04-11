@@ -107,4 +107,8 @@ input2.txt
 ![example-image2](input2-image.png)
 https://www.desmos.com/calculator/mhq4hsncnh
 
+It is hard to tell and mention every single vertex my algorithm visited as it is binarysearch.
+But the left most point is considered as the one at index 0 and right most at index n-1.
+
+
 Note: createPoints.py was used to create list of verticies.
