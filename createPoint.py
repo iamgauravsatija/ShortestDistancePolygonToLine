@@ -12,7 +12,6 @@ while x <= 45:
         x += 1
         y += 1
     print(x, " ", y)
-print("===")
 while x > 15:
     if x < 30:
         x -= 1
